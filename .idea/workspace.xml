@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40ef0f32-adb8-4652-b369-d9c740f9896c" name="Default Changelist" comment="" />
+    <list default="true" id="40ef0f32-adb8-4652-b369-d9c740f9896c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/DepthKitCroppingTool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DepthKitCroppingTool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/37b03df6-da2b-45f1-933d-bd6522243716" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6719ef83-a675-4755-92fd-e8acca320d2f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/9b48d41f-0cfb-4c9f-b256-ed1c76dcf750" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadEditJSON.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ReadEditJSON.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d1d10d05-56d9-4c1c-89d6-c25125102fdc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dkproject.json" beforeDir="false" afterPath="$PROJECT_DIR$/dkproject.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,11 +26,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JupyterTrust" id="cc74cf46-0453-4bdf-87ab-71e17ba8e357">
-    <option name="files">
-      <option value="ReadEditJSON.ipynb" />
-    </option>
-  </component>
+  <component name="JupyterTrust" id="cdf6fa61-bd02-40cc-a2fb-7322d13be455" />
   <component name="ProjectId" id="1rM3weZHdhtZyirG2LSNOoP0e58" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -31,12 +36,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/Conda Envs/DepthCroppingEnv" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -52,10 +59,25 @@
       <option name="presentableId" value="Default" />
       <updated>1618772371378</updated>
       <workItem from="1618772422503" duration="2837000" />
+      <workItem from="1618817831830" duration="12147000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="640" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618818940589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1618818940589" />
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1618818016859">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618818016859" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1618818363880">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1618818363880" />
   </component>
 </project>

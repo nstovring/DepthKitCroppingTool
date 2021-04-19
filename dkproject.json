@@ -101,7 +101,7 @@
                                     -0.0003587690880522132
                                 ],
                                 "focalLength": [
-                                    920.3994750976562,
+                                    920.3994750976563,
                                     920.3424682617188
                                 ],
                                 "imageSize": [
@@ -1564,7 +1564,7 @@
                                     -0.00039221160113811493
                                 ],
                                 "focalLength": [
-                                    921.8696899414062,
+                                    921.8696899414063,
                                     921.9459838867188
                                 ],
                                 "imageSize": [
@@ -1572,7 +1572,7 @@
                                     1080.0
                                 ],
                                 "principalPoint": [
-                                    961.1284790039062,
+                                    961.1284790039063,
                                     544.7592163085938
                                 ]
                             }
@@ -1796,7 +1796,7 @@
     },
     "exportPath": "..\\_Exports\\JosefGL_TECHTEST",
     "name": "Depthkit Project",
-    "recentComposition": "JosefGL_Sc01_Main_Sh02_t0803_15_01_46_43/Azure Kinect 000474601612",
+    "recentComposition": "JosefGL_Sc03_silent_Sh03_t0103_15_04_47_59/Azure Kinect 000411100112",
     "recordings": {
         "JosefGL_Sc01_Main_Sh02_t0103_15_01_07_41": {
             "compositions": {
@@ -1822,7 +1822,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -1866,10 +1866,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -1884,7 +1884,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -1929,9 +1929,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -1946,7 +1946,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -2202,7 +2202,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -2246,10 +2246,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -2264,7 +2264,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -2342,9 +2342,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -2359,7 +2359,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -2595,7 +2595,40 @@
             "compositions": {
                 "Azure Kinect 000018501312": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000018501312",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.07894736528396606,
                         0.16194331645965576,
@@ -2615,13 +2648,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -2630,12 +2663,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 6707,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -2657,12 +2690,45 @@
                 },
                 "Azure Kinect 000411100112": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000411100112",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -2677,13 +2743,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -2692,12 +2758,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 6707,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -2722,9 +2788,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -2739,7 +2805,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -2995,7 +3061,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -3039,10 +3105,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -3057,7 +3123,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -3102,9 +3168,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -3119,7 +3185,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -3375,7 +3441,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -3419,10 +3485,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -3437,7 +3503,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -3482,9 +3548,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -3499,7 +3565,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -3540,7 +3606,7 @@
                     "startFrameNumbersAt1": false
                 }
             },
-            "duration": 235.43350219726562,
+            "duration": 235.43350219726563,
             "streams": {
                 "000018501312": [
                     {
@@ -3755,7 +3821,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -3799,10 +3865,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -3817,7 +3883,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -3862,9 +3928,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -3879,7 +3945,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -4135,7 +4201,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -4179,10 +4245,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -4197,7 +4263,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -4242,9 +4308,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -4259,7 +4325,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -4548,7 +4614,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -4625,10 +4691,10 @@
                         }
                     ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -4643,7 +4709,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -4721,9 +4787,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -4738,7 +4804,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -4748,8 +4814,8 @@
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 1668,
+                        "timebase": 30
                     },
                     "outTime": {
                         "negative": false,
@@ -5259,7 +5325,7 @@
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 642642000,
+                        "ticks": 655988667,
                         "timebase": 10000000
                     },
                     "outTime": {
@@ -5354,7 +5420,7 @@
                         "type": "depth"
                     },
                     {
-                        "assetPath": "F:\\azure_2_key\\2_JosefGL_Sc01_Sh02_Main_t09.mp4\\pha.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\azure_2_key\\2_JosefGL_Sc01_Sh02_Main_t09.mp4\\pha.mp4",
                         "calibration": "auto-calibration-1920x1080",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -5658,7 +5724,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "",
                     "inTime": {
@@ -5677,8 +5743,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -5700,12 +5766,45 @@
                 },
                 "Azure Kinect 000411100112": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000411100112",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -5720,7 +5819,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -5730,8 +5829,8 @@
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 434,
+                        "timebase": 30
                     },
                     "outTime": {
                         "negative": false,
@@ -5798,9 +5897,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -5815,7 +5914,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -6104,7 +6203,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -6146,12 +6245,45 @@
                 },
                 "Azure Kinect 000411100112": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000411100112",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -6166,13 +6298,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -6181,12 +6313,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 8218,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -6244,9 +6376,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -6261,7 +6393,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -6280,8 +6412,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1920,
+                        912
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -6550,7 +6682,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -6560,8 +6692,8 @@
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 333333,
+                        "timebase": 10000000
                     },
                     "outTime": {
                         "negative": false,
@@ -6569,8 +6701,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -6594,10 +6726,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -6612,7 +6744,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -6690,9 +6822,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -6707,7 +6839,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -6748,7 +6880,7 @@
                     "startFrameNumbersAt1": false
                 }
             },
-            "duration": 220.50015258789062,
+            "duration": 220.50015258789063,
             "streams": {
                 "000018501312": [
                     {
@@ -7015,8 +7147,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        1920,
-                        1072
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.6995884776115417,
@@ -7073,10 +7205,10 @@
                         }
                     ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -7110,8 +7242,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        1920,
-                        1072
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.6995884776115417,
@@ -7200,10 +7332,10 @@
                         }
                     ],
                     "crop": [
-                        0.15927419066429138,
                         0.0,
-                        0.5564515590667725,
-                        1.0
+                        0.14713047444820404,
+                        1.0,
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -7214,8 +7346,8 @@
                         "type": "depth"
                     },
                     "depthRange": [
-                        1.2471524477005005,
-                        2.450166702270508
+                        0.9761989116668701,
+                        3.0016303062438965
                     ],
                     "deviceConfigurationId": "000474601612",
                     "enableRefinement": true,
@@ -7223,22 +7355,22 @@
                     "exportType": "cpp-sequence",
                     "inTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 888888,
+                        "timebase": 30000
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 867333333,
+                        "ticks": 382382000,
                         "timebase": 10000000
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 6057,
-                        "timebase": 30
+                        "ticks": 6057051,
+                        "timebase": 30000
                     },
                     "refinedOutputDimensions": [
-                        1056,
-                        1072
+                        3840,
+                        1840
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -7323,7 +7455,7 @@
                         "type": "depth"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\azure_2_key\\2_JosefGL_Sc02_Sh02_Main_t03.mp4\\pha.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\azure_2_key\\2_JosefGL_Sc02_Sh02_Main_t03.mp4\\pha.mp4",
                         "calibration": "auto-calibration-1920x1080",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -7415,7 +7547,7 @@
                         "type": "depth"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\azure_1_key\\1_JosefGL_Sc02_Sh02_Main_t03.mp4\\pha.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\azure_1_key\\1_JosefGL_Sc02_Sh02_Main_t03.mp4\\pha.mp4",
                         "calibration": "auto-calibration-1920x1080",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -7507,7 +7639,7 @@
                         "type": "depth"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\NE_Edit_ACast_edit_0_BEU_GRATED\\Beauty_JosefGL_Sc02_Sh02_Main_t03.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\NE_Edit_ACast_edit_0_BEU_GRATED\\Beauty_JosefGL_Sc02_Sh02_Main_t03.mp4",
                         "calibration": "external-calibration",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -7537,7 +7669,7 @@
                         "type": "color"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\Beauty_key\\Beauty_JosefGL_Sc02_Sh02_Main_t03.mp4\\pha.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\Beauty_key\\Beauty_JosefGL_Sc02_Sh02_Main_t03.mp4\\pha.mp4",
                         "calibration": "external-calibration",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -7553,6 +7685,36 @@
                         "logFile": "",
                         "numDroppedFrames": 0,
                         "sourceId": "external-camera",
+                        "sourceType": "color",
+                        "syncOffset": {
+                            "negative": false,
+                            "ticks": 0,
+                            "timebase": 1
+                        },
+                        "syncPoint": {
+                            "negative": false,
+                            "ticks": 0,
+                            "timebase": 1
+                        },
+                        "type": "mask"
+                    },
+                    {
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\Beauty_key\\Beauty_JosefGL_Sc02_Sh02_Main_t03.mp4\\pha.mp4",
+                        "calibration": "auto-calibration-1920x1080",
+                        "containsBodyIndex": false,
+                        "depthRangeExtents": [
+                            0.23999999463558197,
+                            8.192000389099121
+                        ],
+                        "deviceConfigurationId": "000474601612",
+                        "frameDuration": {
+                            "negative": false,
+                            "ticks": 0,
+                            "timebase": 0
+                        },
+                        "logFile": "",
+                        "numDroppedFrames": 0,
+                        "sourceId": "000474601612",
                         "sourceType": "color",
                         "syncOffset": {
                             "negative": false,
@@ -7594,7 +7756,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -7671,10 +7833,10 @@
                         }
                     ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -7689,7 +7851,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -7767,9 +7929,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -7784,7 +7946,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -8073,7 +8235,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -8117,10 +8279,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -8135,7 +8297,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -8213,9 +8375,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -8230,7 +8392,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -8519,7 +8681,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -8563,10 +8725,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -8581,7 +8743,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -8659,9 +8821,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -8676,7 +8838,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -8932,7 +9094,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -8976,10 +9138,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -8994,7 +9156,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -9072,9 +9234,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -9089,7 +9251,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -9378,7 +9540,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -9455,10 +9617,10 @@
                         }
                     ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -9473,7 +9635,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -9492,8 +9654,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -9551,9 +9713,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -9568,7 +9730,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -9587,8 +9749,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1920,
+                        912
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -9824,7 +9986,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -9901,10 +10063,10 @@
                         }
                     ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -9919,7 +10081,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -9997,9 +10159,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -10014,7 +10176,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -10322,8 +10484,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        1920,
-                        1072
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.6995884776115417,
@@ -10380,10 +10542,10 @@
                         }
                     ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -10417,8 +10579,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        1920,
-                        1072
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.6995884776115417,
@@ -10508,9 +10670,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -10521,7 +10683,7 @@
                         "type": "depth"
                     },
                     "depthRange": [
-                        1.2455782890319824,
+                        0.505551278591156,
                         2.4497299194335938
                     ],
                     "deviceConfigurationId": "000474601612",
@@ -10535,7 +10697,7 @@
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 141808333,
+                        "ticks": 317984333,
                         "timebase": 10000000
                     },
                     "outTime": {
@@ -10545,7 +10707,7 @@
                     },
                     "refinedOutputDimensions": [
                         3840,
-                        2160
+                        1840
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -10630,7 +10792,7 @@
                         "type": "depth"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\azure_2_key\\2_JosefGL_Sc02_Sh03_Silent_t01.mp4\\pha.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\azure_2_key\\2_JosefGL_Sc02_Sh03_Silent_t01.mp4\\pha.mp4",
                         "calibration": "auto-calibration-1920x1080",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -10722,7 +10884,7 @@
                         "type": "depth"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\azure_1_key\\1_JosefGL_Sc02_Sh03_Silent_t01.mp4\\pha.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\azure_1_key\\1_JosefGL_Sc02_Sh03_Silent_t01.mp4\\pha.mp4",
                         "calibration": "auto-calibration-1920x1080",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -10814,7 +10976,7 @@
                         "type": "depth"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\NE_Edit_ACast_edit_0_BEU_GRATED\\Beauty_JosefGL_Sc02_Sh03_Silent_t01.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\NE_Edit_ACast_edit_0_BEU_GRATED\\Beauty_JosefGL_Sc02_Sh03_Silent_t01.mp4",
                         "calibration": "external-calibration",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -10844,7 +11006,7 @@
                         "type": "color"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\Beauty_key\\Beauty_JosefGL_Sc02_Sh03_Silent_t01.mp4\\pha.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\Beauty_key\\Beauty_JosefGL_Sc02_Sh03_Silent_t01.mp4\\pha.mp4",
                         "calibration": "external-calibration",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -10872,6 +11034,36 @@
                             "timebase": 1
                         },
                         "type": "mask"
+                    },
+                    {
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\Beauty_key\\Beauty_JosefGL_Sc02_Sh03_Silent_t01.mp4\\pha.mp4",
+                        "calibration": "auto-calibration-1920x1080",
+                        "containsBodyIndex": false,
+                        "depthRangeExtents": [
+                            0.23999999463558197,
+                            8.192000389099121
+                        ],
+                        "deviceConfigurationId": "000474601612",
+                        "frameDuration": {
+                            "negative": false,
+                            "ticks": 0,
+                            "timebase": 0
+                        },
+                        "logFile": "",
+                        "numDroppedFrames": 0,
+                        "sourceId": "000474601612",
+                        "sourceType": "color",
+                        "syncOffset": {
+                            "negative": false,
+                            "ticks": 0,
+                            "timebase": 1
+                        },
+                        "syncPoint": {
+                            "negative": false,
+                            "ticks": 0,
+                            "timebase": 1
+                        },
+                        "type": "mask"
                     }
                 ]
             },
@@ -10881,7 +11073,40 @@
             "compositions": {
                 "Azure Kinect 000018501312": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000018501312",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.07894736528396606,
                         0.16194331645965576,
@@ -10901,13 +11126,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -10916,12 +11141,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 2784,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -10945,10 +11170,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -10963,7 +11188,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -11041,9 +11266,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -11058,7 +11283,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -11314,7 +11539,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -11358,10 +11583,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -11376,7 +11601,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -11421,9 +11646,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -11438,7 +11663,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -11694,7 +11919,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -11738,10 +11963,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -11756,7 +11981,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -11834,9 +12059,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -11851,7 +12076,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -12159,8 +12384,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        1920,
-                        1072
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -12217,10 +12442,10 @@
                         }
                     ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -12254,8 +12479,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        1920,
-                        1072
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -12345,9 +12570,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -12382,7 +12607,7 @@
                     },
                     "refinedOutputDimensions": [
                         3840,
-                        2160
+                        1840
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -12467,7 +12692,7 @@
                         "type": "depth"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\azure_2_key\\2_JosefGL_Sc03_Sh02_Main_t04.mp4\\pha.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\azure_2_key\\2_JosefGL_Sc03_Sh02_Main_t04.mp4\\pha.mp4",
                         "calibration": "auto-calibration-1920x1080",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -12559,7 +12784,7 @@
                         "type": "depth"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\azure_1_key\\1_JosefGL_Sc03_Sh02_Main_t04..mp4\\pha.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\azure_1_key\\1_JosefGL_Sc03_Sh02_Main_t04..mp4\\pha.mp4",
                         "calibration": "auto-calibration-1920x1080",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -12651,7 +12876,7 @@
                         "type": "depth"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\NE_Edit_ACast_edit_0_BEU_GRATED\\Beauty_JosefGL_Sc03_Sh02_Main_t04.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\NE_Edit_ACast_edit_0_BEU_GRATED\\Beauty_JosefGL_Sc03_Sh02_Main_t04.mp4",
                         "calibration": "external-calibration",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -12681,7 +12906,7 @@
                         "type": "color"
                     },
                     {
-                        "assetPath": "D:\\DepthkitEON\\Beauty_key\\Beauty_JosefGL_Sc03_Sh02_Main_t04.mp4\\pha.mp4",
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\Beauty_key\\Beauty_JosefGL_Sc03_Sh02_Main_t04.mp4\\pha.mp4",
                         "calibration": "external-calibration",
                         "containsBodyIndex": false,
                         "depthRangeExtents": [
@@ -12738,7 +12963,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -12782,10 +13007,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -12800,7 +13025,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -12878,9 +13103,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -12895,7 +13120,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -13184,7 +13409,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -13194,8 +13419,8 @@
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 333333,
+                        "timebase": 10000000
                     },
                     "outTime": {
                         "negative": false,
@@ -13203,8 +13428,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -13261,10 +13486,10 @@
                         }
                     ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -13279,7 +13504,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -13298,16 +13523,16 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
                         "depthSigma": 0.5,
-                        "kernelSize": 2,
-                        "pyramidLevels": 4,
+                        "kernelSize": 5,
+                        "pyramidLevels": 5,
                         "reductionFactor": 2,
-                        "spatialSigma": 0.0
+                        "spatialSigma": 0.5
                     },
                     "selectedColorSource": {
                         "id": "000411100112",
@@ -13353,13 +13578,45 @@
                                 "id": "000474601612",
                                 "type": "color"
                             }
+                        },
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "external-camera",
+                                "type": "color"
+                            }
                         }
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -13370,42 +13627,42 @@
                         "type": "depth"
                     },
                     "depthRange": [
-                        0.25,
-                        8.192000389099121
+                        1.1392641067504883,
+                        3.0016303062438965
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 151151,
+                        "timebase": 30000
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 939000000,
+                        "ticks": 250583667,
                         "timebase": 10000000
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 3199,
-                        "timebase": 30
+                        "ticks": 3118115,
+                        "timebase": 30000
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        3840,
+                        1840
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
                         "depthSigma": 0.5,
-                        "kernelSize": 2,
-                        "pyramidLevels": 4,
+                        "kernelSize": 5,
+                        "pyramidLevels": 5,
                         "reductionFactor": 2,
-                        "spatialSigma": 0.0
+                        "spatialSigma": 0.5
                     },
                     "selectedColorSource": {
-                        "id": "000474601612",
+                        "id": "external-camera",
                         "type": "color"
                     },
                     "selectedDepthSource": {
@@ -13601,6 +13858,66 @@
                             "timebase": 1
                         },
                         "type": "depth"
+                    },
+                    {
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\NE_Edit_ACast_edit_0_BEU_GRATED\\Beauty_JosefGL_Sc03_Sh03_Silent_t01.mp4",
+                        "calibration": "external-calibration",
+                        "containsBodyIndex": false,
+                        "depthRangeExtents": [
+                            0.23999999463558197,
+                            8.192000389099121
+                        ],
+                        "deviceConfigurationId": "000474601612",
+                        "frameDuration": {
+                            "negative": false,
+                            "ticks": 1001,
+                            "timebase": 30000
+                        },
+                        "logFile": "",
+                        "numDroppedFrames": 0,
+                        "sourceId": "external-camera",
+                        "sourceType": "color",
+                        "syncOffset": {
+                            "negative": false,
+                            "ticks": 0,
+                            "timebase": 1
+                        },
+                        "syncPoint": {
+                            "negative": false,
+                            "ticks": 0,
+                            "timebase": 1
+                        },
+                        "type": "color"
+                    },
+                    {
+                        "assetPath": "E:\\MakropolOptagelseProjekt\\Beauty_key\\Beauty_JosefGL_Sc03_Sh03_Silent_t01.mp4\\pha.mp4",
+                        "calibration": "external-calibration",
+                        "containsBodyIndex": false,
+                        "depthRangeExtents": [
+                            0.23999999463558197,
+                            8.192000389099121
+                        ],
+                        "deviceConfigurationId": "000474601612",
+                        "frameDuration": {
+                            "negative": false,
+                            "ticks": 0,
+                            "timebase": 0
+                        },
+                        "logFile": "",
+                        "numDroppedFrames": 0,
+                        "sourceId": "external-camera",
+                        "sourceType": "color",
+                        "syncOffset": {
+                            "negative": false,
+                            "ticks": 0,
+                            "timebase": 1
+                        },
+                        "syncPoint": {
+                            "negative": false,
+                            "ticks": 0,
+                            "timebase": 1
+                        },
+                        "type": "mask"
                     }
                 ]
             },
@@ -13630,7 +13947,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -13674,10 +13991,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -13692,7 +14009,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -13737,9 +14054,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -13754,7 +14071,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -14010,7 +14327,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -14054,10 +14371,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -14072,7 +14389,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -14117,9 +14434,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -14134,7 +14451,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -14390,7 +14707,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -14434,10 +14751,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -14452,7 +14769,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -14497,9 +14814,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -14514,7 +14831,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -14555,7 +14872,7 @@
                     "startFrameNumbersAt1": false
                 }
             },
-            "duration": 119.96682739257812,
+            "duration": 119.96682739257813,
             "streams": {
                 "000018501312": [
                     {
@@ -14770,7 +15087,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -14814,10 +15131,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -14832,7 +15149,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -14874,12 +15191,45 @@
                 },
                 "Azure Kinect 000474601612": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000474601612",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -14894,13 +15244,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -14909,12 +15259,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 502,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1920,
+                        912
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -15183,7 +15533,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "",
                     "inTime": {
@@ -15260,10 +15610,10 @@
                         }
                     ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -15278,7 +15628,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -15323,9 +15673,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -15340,7 +15690,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -15596,7 +15946,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -15640,10 +15990,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -15658,7 +16008,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -15703,9 +16053,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -15720,7 +16070,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -15976,7 +16326,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -16020,10 +16370,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -16038,7 +16388,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -16083,9 +16433,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -16100,7 +16450,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -16141,7 +16491,7 @@
                     "startFrameNumbersAt1": false
                 }
             },
-            "duration": 127.10000610351562,
+            "duration": 127.10000610351563,
             "streams": {
                 "000018501312": [
                     {
@@ -16356,7 +16706,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -16400,10 +16750,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -16418,7 +16768,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -16463,9 +16813,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -16480,7 +16830,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -16736,7 +17086,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -16780,10 +17130,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -16798,7 +17148,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -16843,9 +17193,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -16860,7 +17210,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -17116,7 +17466,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -17160,10 +17510,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -17178,7 +17528,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -17223,9 +17573,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -17240,7 +17590,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -17496,7 +17846,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -17540,10 +17890,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -17558,7 +17908,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -17603,9 +17953,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -17620,7 +17970,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -17876,7 +18226,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -17920,10 +18270,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -17938,7 +18288,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -17983,9 +18333,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -18000,7 +18350,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -18256,7 +18606,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -18300,10 +18650,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -18318,7 +18668,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -18363,9 +18713,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -18380,7 +18730,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -18616,7 +18966,40 @@
             "compositions": {
                 "Azure Kinect 000018501312": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000018501312",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.07894736528396606,
                         0.16194331645965576,
@@ -18632,31 +19015,31 @@
                         "type": "depth"
                     },
                     "depthRange": [
-                        0.23999999463558197,
-                        8.192000389099121
+                        1.1234877109527588,
+                        2.2343027591705322
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 514,
+                        "timebase": 30
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 514,
+                        "timebase": 30
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 4407,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -18678,12 +19061,45 @@
                 },
                 "Azure Kinect 000411100112": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000411100112",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -18698,13 +19114,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -18713,12 +19129,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 4407,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -18740,12 +19156,45 @@
                 },
                 "Azure Kinect 000474601612": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000474601612",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -18760,13 +19209,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -18775,12 +19224,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 4407,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1920,
+                        912
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -19016,7 +19465,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -19058,12 +19507,45 @@
                 },
                 "Azure Kinect 000411100112": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000411100112",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -19078,27 +19560,27 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 333333,
+                        "timebase": 10000000
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 4477,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -19120,12 +19602,45 @@
                 },
                 "Azure Kinect 000474601612": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000474601612",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -19140,27 +19655,27 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 333333,
+                        "timebase": 10000000
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 4478,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1920,
+                        912
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -19396,7 +19911,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -19440,10 +19955,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -19458,7 +19973,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -19503,9 +20018,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -19520,7 +20035,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -19776,7 +20291,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -19820,10 +20335,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -19838,7 +20353,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -19880,12 +20395,45 @@
                 },
                 "Azure Kinect 000474601612": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000474601612",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -19900,13 +20448,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -19915,12 +20463,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 942,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1920,
+                        912
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -20136,7 +20684,40 @@
             "compositions": {
                 "Azure Kinect 000018501312": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000018501312",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.07894736528396606,
                         0.16194331645965576,
@@ -20156,13 +20737,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -20171,12 +20752,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 4401,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -20198,12 +20779,45 @@
                 },
                 "Azure Kinect 000411100112": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000411100112",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -20218,13 +20832,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -20233,12 +20847,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 4401,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -20260,12 +20874,45 @@
                 },
                 "Azure Kinect 000474601612": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000474601612",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -20280,13 +20927,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -20295,12 +20942,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 4401,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1920,
+                        912
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -20536,7 +21183,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -20580,10 +21227,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -20598,7 +21245,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -20643,9 +21290,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -20660,7 +21307,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -20896,7 +21543,40 @@
             "compositions": {
                 "Azure Kinect 000018501312": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000018501312",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.07894736528396606,
                         0.16194331645965576,
@@ -20916,13 +21596,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -20931,12 +21611,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 4150,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -20958,12 +21638,45 @@
                 },
                 "Azure Kinect 000411100112": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000411100112",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -20978,13 +21691,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -20993,12 +21706,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 4149,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -21020,12 +21733,45 @@
                 },
                 "Azure Kinect 000474601612": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000474601612",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -21040,13 +21786,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -21055,12 +21801,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 4150,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1920,
+                        912
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -21296,7 +22042,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -21340,10 +22086,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -21358,7 +22104,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -21403,9 +22149,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -21420,7 +22166,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -21656,7 +22402,40 @@
             "compositions": {
                 "Azure Kinect 000018501312": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000018501312",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.07894736528396606,
                         0.16194331645965576,
@@ -21676,13 +22455,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -21691,12 +22470,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 3057,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -21718,12 +22497,45 @@
                 },
                 "Azure Kinect 000411100112": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000411100112",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -21738,13 +22550,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -21753,12 +22565,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 3056,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -21780,12 +22592,45 @@
                 },
                 "Azure Kinect 000474601612": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000474601612",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -21800,27 +22645,27 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 614,
+                        "timebase": 30
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 614,
+                        "timebase": 30
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 3057,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1920,
+                        912
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -22089,7 +22934,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -22099,8 +22944,8 @@
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 333333,
+                        "timebase": 10000000
                     },
                     "outTime": {
                         "negative": false,
@@ -22108,8 +22953,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1536,
+                        800
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -22131,12 +22976,45 @@
                 },
                 "Azure Kinect 000411100112": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000411100112",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -22151,13 +23029,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -22166,12 +23044,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 3483,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -22193,12 +23071,45 @@
                 },
                 "Azure Kinect 000474601612": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000474601612",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -22209,31 +23120,31 @@
                         "type": "depth"
                     },
                     "depthRange": [
-                        0.25,
-                        8.192000389099121
+                        1.1392641067504883,
+                        2.711369276046753
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 333333,
+                        "timebase": 10000000
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 3483,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1920,
+                        912
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -22469,7 +23380,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -22513,10 +23424,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -22531,7 +23442,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -22573,12 +23484,45 @@
                 },
                 "Azure Kinect 000474601612": {
                     "bodyIndexEnabled": false,
-                    "calibrationAdjustments": [],
+                    "calibrationAdjustments": [
+                        {
+                            "adjustmentMatrix": [
+                                [
+                                    1.0,
+                                    0.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    1.0,
+                                    0.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    1.0,
+                                    0.0
+                                ],
+                                [
+                                    0.0,
+                                    0.0,
+                                    0.0,
+                                    1.0
+                                ]
+                            ],
+                            "sourcekey": {
+                                "id": "000474601612",
+                                "type": "color"
+                            }
+                        }
+                    ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -22593,13 +23537,13 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
                         "negative": false,
                         "ticks": 0,
-                        "timebase": 0
+                        "timebase": 1
                     },
                     "lastPlayheadTime": {
                         "negative": false,
@@ -22608,12 +23552,12 @@
                     },
                     "outTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 0
+                        "ticks": 424,
+                        "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1920,
+                        912
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -22849,7 +23793,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000018501312",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -22893,10 +23837,10 @@
                     "bodyIndexEnabled": false,
                     "calibrationAdjustments": [],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -22911,7 +23855,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -22956,9 +23900,9 @@
                     "calibrationAdjustments": [],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -22973,7 +23917,7 @@
                         8.192000389099121
                     ],
                     "deviceConfigurationId": "000474601612",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -23339,10 +24283,10 @@
                         }
                     ],
                     "crop": [
-                        0.0,
-                        0.0,
-                        1.0,
-                        1.0
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -23357,7 +24301,7 @@
                         2.4332070350646973
                     ],
                     "deviceConfigurationId": "000411100112",
-                    "enableRefinement": false,
+                    "enableRefinement": true,
                     "exportMeshDecimation": "none",
                     "exportType": "cpp",
                     "inTime": {
@@ -23367,8 +24311,8 @@
                     },
                     "lastPlayheadTime": {
                         "negative": false,
-                        "ticks": 0,
-                        "timebase": 1
+                        "ticks": 333333,
+                        "timebase": 10000000
                     },
                     "outTime": {
                         "negative": false,
@@ -23376,8 +24320,8 @@
                         "timebase": 30
                     },
                     "refinedOutputDimensions": [
-                        0,
-                        0
+                        1232,
+                        736
                     ],
                     "refinementParameters": {
                         "colorSigma": 0.5,
@@ -23435,9 +24379,9 @@
                     ],
                     "crop": [
                         0.0,
-                        0.0,
+                        0.14713047444820404,
                         1.0,
-                        1.0
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
@@ -24272,10 +25216,10 @@
                         }
                     ],
                     "crop": [
-                        0.07166619598865509,
-                        0.0,
-                        0.6560022830963135,
-                        0.8471121191978455
+                        0.14580291509628296,
+                        0.13873158395290375,
+                        0.6456950902938843,
+                        0.6851550340652466
                     ],
                     "defaultColorSource": {
                         "id": "000411100112",
@@ -24367,10 +25311,10 @@
                         }
                     ],
                     "crop": [
-                        0.1783691942691803,
-                        0.18120045959949493,
-                        0.6560022830963135,
-                        0.8187995553016663
+                        0.0,
+                        0.14713047444820404,
+                        1.0,
+                        0.8528695106506348
                     ],
                     "defaultColorSource": {
                         "id": "000474601612",
