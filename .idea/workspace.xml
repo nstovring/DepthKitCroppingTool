@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ef0f32-adb8-4652-b369-d9c740f9896c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/DepthKitCroppingTool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DepthKitCroppingTool.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backups/dkproject.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Backups/dkprojectOriginal.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TuesdayCorruptedBackup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dkprojectTest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/37b03df6-da2b-45f1-933d-bd6522243716" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/6719ef83-a675-4755-92fd-e8acca320d2f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/9b48d41f-0cfb-4c9f-b256-ed1c76dcf750" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadEditJSON.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ReadEditJSON.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d1d10d05-56d9-4c1c-89d6-c25125102fdc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dkproject.json" beforeDir="false" afterPath="$PROJECT_DIR$/dkproject.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Conda Envs/DepthCroppingEnv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,7 +45,13 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitHub\DepthKitCroppingTool" />
+      <recent name="E:\GitHub\DepthKitCroppingTool\Backups" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\GitHub\DepthKitCroppingTool" />
+      <recent name="E:\GitHub\DepthKitCroppingTool\Backups" />
       <recent name="C:\Users\Nstov\Documents\EksamensProjekt\DepthKitCroppingTool" />
     </key>
   </component>
@@ -59,7 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1618772371378</updated>
       <workItem from="1618772422503" duration="2837000" />
-      <workItem from="1618817831830" duration="12147000" />
+      <workItem from="1618817831830" duration="13746000" />
+      <workItem from="1618901138463" duration="19665000" />
     </task>
     <servers />
   </component>
