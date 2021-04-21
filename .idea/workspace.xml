@@ -4,7 +4,6 @@
     <list default="true" id="40ef0f32-adb8-4652-b369-d9c740f9896c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadEditJSON.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ReadEditJSON.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dkproject.json" beforeDir="false" afterPath="$PROJECT_DIR$/dkproject.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <workItem from="1618817831830" duration="13746000" />
       <workItem from="1618901138463" duration="20256000" />
       <workItem from="1618987552442" duration="3560000" />
-      <workItem from="1618993675706" duration="3758000" />
+      <workItem from="1618993675706" duration="6230000" />
     </task>
     <servers />
   </component>
