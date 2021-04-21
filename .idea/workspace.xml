@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40ef0f32-adb8-4652-b369-d9c740f9896c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Backups/dkproject.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Backups/dkprojectOriginal.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TuesdayCorruptedBackup.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dkprojectTest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadEditJSON.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ReadEditJSON.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dkproject.json" beforeDir="false" afterPath="$PROJECT_DIR$/dkproject.json" afterDir="false" />
@@ -65,7 +61,9 @@
       <updated>1618772371378</updated>
       <workItem from="1618772422503" duration="2837000" />
       <workItem from="1618817831830" duration="13746000" />
-      <workItem from="1618901138463" duration="19665000" />
+      <workItem from="1618901138463" duration="20256000" />
+      <workItem from="1618987552442" duration="3560000" />
+      <workItem from="1618993675706" duration="3758000" />
     </task>
     <servers />
   </component>
@@ -73,6 +71,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="698" y="344" key="#Notifications" timestamp="1619002814336">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="698" y="344" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1619002814336" />
     <state x="640" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1618818940589">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -81,6 +83,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618818016859" />
+    <state width="1877" height="72" key="GridCell.Tab.0.bottom" timestamp="1618993282734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618993282734" />
+    <state width="1877" height="72" key="GridCell.Tab.0.center" timestamp="1618993282733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618993282733" />
+    <state width="1877" height="72" key="GridCell.Tab.0.left" timestamp="1618993282732">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618993282732" />
+    <state width="1877" height="72" key="GridCell.Tab.0.right" timestamp="1618993282734">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="72" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618993282734" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1618818363880">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
